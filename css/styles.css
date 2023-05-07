@@ -1,171 +1,207 @@
 body {
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    background: #E5E5E5;
-    font-family: 'Montserrat', sans-serif;}
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
 .wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    background: #FFFFFF;
-    width: 1200px; 
-    margin: auto;}
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
 .main-content {
-    padding-left: 89px;
-    padding-top: 80px;
-    padding-right: 40px;
-    padding-bottom: 80px;}
+  padding-left: 89px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
 .main-content-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 8px;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 8px;
+}
 .about-me {
-    margin-bottom: 40px;}
+  margin-bottom: 40px;
+}
 .my-name {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-    color: #000000;
-    margin-bottom: 8px;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 8px;
+}
 .my-summary {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
 .sidebar {
-    background: #DFEEFF;
-    padding-top: 40px;
-    padding-bottom: 40px;}
+  background: #dfeeff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .sidebar-content {
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 80px;}
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
 .sidebar-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #161D2A;
-    margin-bottom: 8px;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
 .contacts-container {
-    margin-bottom: 40px;}
+  margin-bottom: 40px;
+}
 .conacts-item {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161D2A;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
 .conacts-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: #2979FF;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
 .skills-container {
-    margin-bottom: 40px;}
+  margin-bottom: 40px;
+}
 .skill-list {
-    padding-left: 25px;}
+  padding-left: 25px;
+}
 .skills-item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161D2A;
-    list-style: disc;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  list-style: disc;
+}
 .softskills-container {
-    margin-bottom: 40px;}
+  margin-bottom: 40px;
+}
 .softskill-list {
-    padding-left: 25px;}
+  padding-left: 25px;
+}
 .softskills-item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161D2A;
-    list-style: disc;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  list-style: disc;
+}
 .myprofession {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    margin-bottom: 8px;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 8px;
+}
 .projects-container {
-   margin-bottom: 44px; }
+  margin-bottom: 44px;
+}
 .workexperience-container {
-    margin-bottom: 44px;}
+  margin-bottom: 44px;
+}
 .projects-item {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    list-style: decimal;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  list-style: decimal;
+}
 .projects-item-url {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-text-decoration-line: underline;
-color: #2979FF;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
 .projects-item-text {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #000000;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
 .projects-ol {
-    padding-left: 19px; }
+  padding-left: 19px;
+}
 .company-position {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 12px; }
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 12px;
+}
 .company-name {
- color: #6096FF; }
+  color: #6096ff;
+}
 .period {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 8px;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
 .company-duti-list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    padding-left: 19px;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 19px;
+}
 .company-duti-item {
-    list-style: disc;}
+  list-style: disc;
+}
 .company-conteiner {
-    margin-bottom: 8px;}
+  margin-bottom: 8px;
+}
 .education-container {
-            margin-bottom: 44px; }
+  margin-bottom: 44px;
+}
 .education-institution {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #6096FF;
-    margin-bottom: 8px;}
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6096ff;
+  margin-bottom: 8px;
+}
 .education-institution-spec {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    margin-bottom: 8px;}
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 8px;
+}
 .education-container {
-    margin-bottom: 8px;}
+  margin-bottom: 8px;
+}

@@ -1,168 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Підключення шрифтів -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Підключення таблиць стилів -->
-    
+
     <!-- Затирання стилів -->
-    <link rel="stylesheet" href="css/reset.css">
-    
+    <link rel="stylesheet" href="css/reset.css" />
+
     <!-- Власні стилі -->
-    <link rel="stylesheet" href="css/styles.css">
-    
-    
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>My resume</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Main Content -->
 
-<div class="wrapper">
-<!-- Main Content -->
-
-<div class="main-content">
-
-<!-- About Me  -->
-<div class="about-me">
-    <h2 class="myprofession">Приватний підприємець. Інженер-програміст. </h2>
-    <h1 class="my-name">Максим Рева</h1>
-    <p class="my-summary">Досвідчений інженер з більше ніж 12-річним досвідом в області мережевого адміністрування
-    Знання мережевих протоколів та технологій, в тому числі TCP / IP, BGP, OSPF, MPLS та VLAN
-    Досвід роботи з різними мережевими пристроями, такими як маршрутизатори та комутатори Cisco, Juniper та Huawei
-    Навички управління мережевою інфраструктурою, в тому числі налаштування мережевих пристроїв та моніторинг мережевої
-    діяльності
-    Досвід виконання проектів з мережевої інфраструктури, в тому числі проектів щодо міграції та оновлення мережі
-    Здатність працювати в команді та управляти проектами, готовність до навчання та вдосконалення своїх навичок
-    Вільне володіння українською, російською та англійською мовами.</p>
-
-</div>
-
-<!-- Projects  -->
-<div class="projects-container">
-<h3 class="main-content-title">Projects</h3>
-<ol class="projects-ol">
-    <li class="projects-item"><a class="projects-item-url" href="http://dev.networks.ua">http://dev.networks.ua</a><span class="projects-item-text">...............[ HTML5, CSS3 ]</span></li>
-    <li class="projects-item"><a class="projects-item-url" href="http://networks.ua">http://networks.ua</a><span class="projects-item-text">........................[ HTML5, CSS3 ]</span></li>
-    <li class="projects-item"><a class="projects-item-url" href="http://tacpack.com.ua">http://tacpack.com.ua</a><span class="projects-item-text">................[ HTML5, CSS3 ]</span></li>  
-</ol>
-
-</div>
-
-<!-- Work Experience  -->
-<div class="workexperience-container">
-    <h3 class="main-content-title">Work Experience</h3>
-<!-- Company1 -->
-<div class="company-conteiner">
-    <h4 class="company-position">Власник ІТ компанії,<span class="company-name"> ТОВ Компліт</span></h4>
-    <p class="period">September 2007 - September 2008 | Ukraine</p>
-    <ul class="company-duti-list">
-        <li class="company-duti-item">керування фінансами підприємства</li>
-        <li class="company-duti-item">продаж сервісів компанії</li>
-        <li class="company-duti-item">організація роботи технічного відділу компанії</li>
-        <li class="company-duti-item">взаємодія з інвесторами</li>
-    </ul>
-</div>
-<!-- Company2 -->
-<div class="company-conteiner">
-    <h4 class="company-position">Системний адміністратор,<span class="company-name"> DVS Company LTD</span> </h4>
-    <p class="period">April 2004 - September 2007 | Ukraine</p>
-    <ul class="company-duti-list">
-        <li class="company-duti-item">технічна підтримка користувачів</li>
-        <li class="company-duti-item">адміністрування мережевої інфраструктури</li>
-        <li class="company-duti-item">адміністрування серверної інфраструктури на базі Novell NetWare</li>
-        <li class="company-duti-item">розробка системи автоматизації процесів адміністрування на базі CMD</li>
-    </ul>
-</div>
-<!-- Company3 -->
-<div class="company-conteiner">
-    <h4 class="company-position">Головний системний адміністратор,<span class="company-name"> Національний Гірничий Університет, ІКК</span></h4>
-    <p class="period">September 2003 - April 2004 | Ukraine</p>
-    <ul class="company-duti-list">
-        <li class="company-duti-item">технічна підтримка користувачів</li>
-        <li class="company-duti-item">адміністрування мережевої інфраструктури</li>
-        <li class="company-duti-item">адміністрування серверної інфраструктури на базі Microsoft Windows Server 2000</li>
-        <li class="company-duti-item">розробка системи автоматизації процесів адміністрування на базі CMD</li>
-    </ul>
-</div>
-
-</div>
-
-<!-- Education  -->
-<div class="education-container">
-    <h3 class="main-content-title">Education</h3>
-    <!-- education institution 1 -->
-    <div>
-        <h4 class="education-institution">GoIT </h4>
-        <h5 class="education-institution-spec">Frontend developer</h5>
-        <p class="period">May 2023 - Up to now | Ukraine</p>
-    </div>
-    <!-- education institution 2 -->
-    <div>
-        <h4 class="education-institution">Університет бізнесу та права</h4>
-        <h5 class="education-institution-spec">Менеджмент організації</h5>
-        <p class="period">September 2007 - June 2009 | Ukraine</p>
-    </div>
-    <!-- education institution 3 -->
-    <div>
-        <h4 class="education-institution">Національний гірничий университет</h4>
-        <h5 class="education-institution-spec">Інформаційні управляючі системи і технології</h5>
-        <p class="period">September 1998 - June 2003 | Ukraine</p>
-    </div>
-</div>
-
-</div>
-
-<!-- Sidebar -->
-    <aside class="sidebar">
-
-        <img src="img/mmreva.png" alt="My Photo" width="370">
-        <div  class="sidebar-content">
-    <!-- Contacts -->
-        <div class="contacts-container">
-            <h3 class="sidebar-title">Contacts</h3>
-                <ul>
-                    <li class="conacts-item">C: <a class="conacts-link" href="tel:+380676300793">+380676300793</a></li>
-                    <li class="conacts-item">E: <a class="conacts-link" href="mailto:mmreva@networks.ua">mmreva@networks.ua</a></li>
-                </ul>
+      <div class="main-content">
+        <!-- About Me  -->
+        <div class="about-me">
+          <h2 class="myprofession">
+            Приватний підприємець. Інженер-програміст.
+          </h2>
+          <h1 class="my-name">Максим Рева</h1>
+          <p class="my-summary">
+            Досвідчений інженер з більше ніж 12-річним досвідом в області
+            мережевого адміністрування Знання мережевих протоколів та
+            технологій, в тому числі TCP / IP, BGP, OSPF, MPLS та VLAN Досвід
+            роботи з різними мережевими пристроями, такими як маршрутизатори та
+            комутатори Cisco, Juniper та Huawei Навички управління мережевою
+            інфраструктурою, в тому числі налаштування мережевих пристроїв та
+            моніторинг мережевої діяльності Досвід виконання проектів з
+            мережевої інфраструктури, в тому числі проектів щодо міграції та
+            оновлення мережі Здатність працювати в команді та управляти
+            проектами, готовність до навчання та вдосконалення своїх навичок
+            Вільне володіння українською, російською та англійською мовами.
+          </p>
         </div>
-    <!-- Tech Skills -->
-        <div class="skills-container">
+
+        <!-- Projects  -->
+        <div class="projects-container">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="projects-ol">
+            <li class="projects-item">
+              <a class="projects-item-url" href="http://dev.networks.ua"
+                >http://dev.networks.ua</a
+              ><span class="projects-item-text"
+                >...............[ HTML5, CSS3 ]</span
+              >
+            </li>
+            <li class="projects-item">
+              <a class="projects-item-url" href="http://networks.ua"
+                >http://networks.ua</a
+              ><span class="projects-item-text"
+                >........................[ HTML5, CSS3 ]</span
+              >
+            </li>
+            <li class="projects-item">
+              <a class="projects-item-url" href="http://tacpack.com.ua"
+                >http://tacpack.com.ua</a
+              ><span class="projects-item-text"
+                >................[ HTML5, CSS3 ]</span
+              >
+            </li>
+          </ol>
+        </div>
+
+        <!-- Work Experience  -->
+        <div class="workexperience-container">
+          <h3 class="main-content-title">Work Experience</h3>
+          <!-- Company1 -->
+          <div class="company-conteiner">
+            <h4 class="company-position">
+              Власник ІТ компанії,<span class="company-name"> ТОВ Компліт</span>
+            </h4>
+            <p class="period">September 2007 - September 2008 | Ukraine</p>
+            <ul class="company-duti-list">
+              <li class="company-duti-item">
+                керування фінансами підприємства
+              </li>
+              <li class="company-duti-item">продаж сервісів компанії</li>
+              <li class="company-duti-item">
+                організація роботи технічного відділу компанії
+              </li>
+              <li class="company-duti-item">взаємодія з інвесторами</li>
+            </ul>
+          </div>
+          <!-- Company2 -->
+          <div class="company-conteiner">
+            <h4 class="company-position">
+              Системний адміністратор,<span class="company-name">
+                DVS Company LTD</span
+              >
+            </h4>
+            <p class="period">April 2004 - September 2007 | Ukraine</p>
+            <ul class="company-duti-list">
+              <li class="company-duti-item">технічна підтримка користувачів</li>
+              <li class="company-duti-item">
+                адміністрування мережевої інфраструктури
+              </li>
+              <li class="company-duti-item">
+                адміністрування серверної інфраструктури на базі Novell NetWare
+              </li>
+              <li class="company-duti-item">
+                розробка системи автоматизації процесів адміністрування на базі
+                CMD
+              </li>
+            </ul>
+          </div>
+          <!-- Company3 -->
+          <div class="company-conteiner">
+            <h4 class="company-position">
+              Головний системний адміністратор,<span class="company-name">
+                Національний Гірничий Університет, ІКК</span
+              >
+            </h4>
+            <p class="period">September 2003 - April 2004 | Ukraine</p>
+            <ul class="company-duti-list">
+              <li class="company-duti-item">технічна підтримка користувачів</li>
+              <li class="company-duti-item">
+                адміністрування мережевої інфраструктури
+              </li>
+              <li class="company-duti-item">
+                адміністрування серверної інфраструктури на базі Microsoft
+                Windows Server 2000
+              </li>
+              <li class="company-duti-item">
+                розробка системи автоматизації процесів адміністрування на базі
+                CMD
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education  -->
+        <div class="education-container">
+          <h3 class="main-content-title">Education</h3>
+          <!-- education institution 1 -->
+          <div>
+            <h4 class="education-institution">GoIT</h4>
+            <h5 class="education-institution-spec">Frontend developer</h5>
+            <p class="period">May 2023 - Up to now | Ukraine</p>
+          </div>
+          <!-- education institution 2 -->
+          <div>
+            <h4 class="education-institution">Університет бізнесу та права</h4>
+            <h5 class="education-institution-spec">Менеджмент організації</h5>
+            <p class="period">September 2007 - June 2009 | Ukraine</p>
+          </div>
+          <!-- education institution 3 -->
+          <div>
+            <h4 class="education-institution">
+              Національний гірничий университет
+            </h4>
+            <h5 class="education-institution-spec">
+              Інформаційні управляючі системи і технології
+            </h5>
+            <p class="period">September 1998 - June 2003 | Ukraine</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img src="img/mmreva.png" alt="My Photo" width="370" />
+        <div class="sidebar-content">
+          <!-- Contacts -->
+          <div class="contacts-container">
+            <h3 class="sidebar-title">Contacts</h3>
+            <ul>
+              <li class="conacts-item">
+                C:
+                <a class="conacts-link" href="tel:+380676300793"
+                  >+380676300793</a
+                >
+              </li>
+              <li class="conacts-item">
+                E:
+                <a class="conacts-link" href="mailto:mmreva@networks.ua"
+                  >mmreva@networks.ua</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Tech Skills -->
+          <div class="skills-container">
             <h3 class="sidebar-title">Tech Skills</h3>
             <ul class="skill-list">
-                <li class="skills-item">Налаштування та адміністрування мережевих пристроїв, включаючи маршрутизатори та комутатори Cisco, Juniper та Huawei</li>
-                <li class="skills-item">Розуміння мережевих протоколів, включаючи TCP / IP, BGP, OSPF, MPLS та VLAN</li>
-                <li class="skills-item">Навички роботи з мережевими аналізаторами, такими як Wireshark та tcpdump</li>
-                <li class="skills-item">Досвід використання мережевих інструментів моніторингу, таких як Nagios, Zabbix та Cacti</li>
-                <li class="skills-item">Знання програмного забезпечення для віртуалізації, таке як VMWare та VirtualBox</li>
-                <li class="skills-item">Досвід використання Linux та Windows Server</li>
-                <li class="skills-item">Розуміння безпеки мережі та досвід роботи зі зв'язаними інструментами</li>
-                <li class="skills-item">Здатність до швидкого виявлення та вирішення проблем з мережевими системами</li>
+              <li class="skills-item">
+                Налаштування та адміністрування мережевих пристроїв, включаючи
+                маршрутизатори та комутатори Cisco, Juniper та Huawei
+              </li>
+              <li class="skills-item">
+                Розуміння мережевих протоколів, включаючи TCP / IP, BGP, OSPF,
+                MPLS та VLAN
+              </li>
+              <li class="skills-item">
+                Навички роботи з мережевими аналізаторами, такими як Wireshark
+                та tcpdump
+              </li>
+              <li class="skills-item">
+                Досвід використання мережевих інструментів моніторингу, таких як
+                Nagios, Zabbix та Cacti
+              </li>
+              <li class="skills-item">
+                Знання програмного забезпечення для віртуалізації, таке як
+                VMWare та VirtualBox
+              </li>
+              <li class="skills-item">
+                Досвід використання Linux та Windows Server
+              </li>
+              <li class="skills-item">
+                Розуміння безпеки мережі та досвід роботи зі зв'язаними
+                інструментами
+              </li>
+              <li class="skills-item">
+                Здатність до швидкого виявлення та вирішення проблем з
+                мережевими системами
+              </li>
             </ul>
-        </div>
-    <!-- Soft Skills -->
-        <div class="softskills-container">
+          </div>
+          <!-- Soft Skills -->
+          <div class="softskills-container">
             <h3 class="sidebar-title">Soft Skills</h3>
             <ul class="softskill-list">
-                <li class="softskills-item">Комунікаційні навички, включаючи як зв'язок з колегами, так і з клієнтами</li>
-                <li class="softskills-item">Здатність працювати в команді та управління проектами</li>
-                <li class="softskills-item">Організаційні навички, включаючи планування та керування часом</li>
-                <li class="softskills-item">Адаптивність та готовність до навчання нових навичок</li>
-                <li class="softskills-item">Аналітичні та проблемні навички для ефективного розв'язання складних проблем</li>
-                <li class="softskills-item">Етичність та здатність до збереження конфіденційності та безпеки даних</li>
+              <li class="softskills-item">
+                Комунікаційні навички, включаючи як зв'язок з колегами, так і з
+                клієнтами
+              </li>
+              <li class="softskills-item">
+                Здатність працювати в команді та управління проектами
+              </li>
+              <li class="softskills-item">
+                Організаційні навички, включаючи планування та керування часом
+              </li>
+              <li class="softskills-item">
+                Адаптивність та готовність до навчання нових навичок
+              </li>
+              <li class="softskills-item">
+                Аналітичні та проблемні навички для ефективного розв'язання
+                складних проблем
+              </li>
+              <li class="softskills-item">
+                Етичність та здатність до збереження конфіденційності та безпеки
+                даних
+              </li>
             </ul>
-
+          </div>
         </div>
-
-        </div>
-    </aside>
-
-</div>
-</body>
+      </aside>
+    </div>
+  </body>
 </html>

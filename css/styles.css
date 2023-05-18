@@ -208,3 +208,11 @@ body {
 @media screen and ( max-widt: 1260px) {
   .wrapper {width: 100;} 
 }
+@media screen and ( max-widt: 995px) {
+  .main-content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  }
+}

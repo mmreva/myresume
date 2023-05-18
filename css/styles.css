@@ -261,3 +261,16 @@ body {
     padding-left: 0;
   }
 }
+@media screen and (max-width: 480px) {
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill-row {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .sidebar-content {
+    align-items: flex-start;
+  }
+}

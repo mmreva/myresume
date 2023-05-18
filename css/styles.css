@@ -244,7 +244,7 @@ body {
 }
 
 @media screen and (max-width: 680px) {
-  .body {
+  .mybody {
     padding: 0;
   }
   .sidebar {
@@ -272,5 +272,8 @@ body {
   }
   .sidebar-content {
     align-items: flex-start;
+  }
+  .mybody {
+    padding: 0;
   }
 }

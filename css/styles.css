@@ -217,5 +217,12 @@ body {
     padding-bottom: 40px;
     padding-right: 40px;
   }
-  .
+  .my-photo {
+    width: 275px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
 }

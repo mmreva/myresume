@@ -205,3 +205,6 @@ body {
 .education-container {
   margin-bottom: 8px;
 }
+@media screen and ( max-widt: 1260px) {
+  .wrapper {width: 100;} 
+}

@@ -228,5 +228,7 @@ body {
   .sidebar {
     display: flex;
     align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
